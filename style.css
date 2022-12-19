@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@100&display=swap");
+.img {
+  height: 33px;
+  width: 268px;
+  margin-top: 10px;
+}
+.navigateur {
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  /*border: 1px solid black;*/
+  display: flex;
+  list-style: none;
+  width: 252px;
+  height: 30px;
+  justify-content: space-around;
+  color: #ababab;
+}
+.navbar > li:hover {
+  color: #00b39b;
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+}
+.logo2 {
+  height: 40pxx;
+  width: 39px;
+}
+.sect1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+  /* border: 1px solid red;*/
+  height: 308px;
+}
+.prg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1100px;
+  /*border: 1px solid black;*/
+}
+.prg > p {
+  height: 112px;
+  width: 477px;
+  /* border: 1px solid blue;*/
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.sect1 > h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-weight: 300px;
+  margin-top: 34px;
+  font-family: "Work Sans", sans-serif;
+}
+/* thisis the secend section */
+.sect2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.patrie1 {
+  background: #00ccb1;
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.patient {
+  height: 280px;
+  width: 250px;
+  /*border: 1px solid red;*/
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#selection {
+  width: 250px;
+  height: 40px;
+  color: #ffffff;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: end;
+  /*border: 1px solid black;*/
+}
+
+.patrie2 {
+  background: #3d83df;
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.doctor {
+  width: 250px;
+  height: 280px;
+  /*border: 1px solid red;*/
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.patrie3 {
+  background: #1b2734;
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.clinic {
+  width: 250px;
+  height: 290px;
+  /*border: 1px solid red;*/
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* css of SECTION 3*/
+.sect3 {
+  width: 1000px;
+  height: 155px;
+  /*border: 1px solid red;*/
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+.bh {
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  /*border: 1px solid black;*/
+  width: 200px;
+}
+.sect3 > .liste > ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.liste {
+  width: 500px;
+  height: 155px;
+}
